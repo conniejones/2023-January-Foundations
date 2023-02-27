@@ -3,5 +3,31 @@ body {
     font-family: sans-serif;
     font-size: 3vh;
     color: #303030;
+}
 
+.grid-container {
+    display: grid;
+    grid-area: header;
+
+
+}
+
+h1 {
+    margin: 0;
+    grid-column: span 1 / 5;
+    border-style: solid;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    /*padding-top: 0.5em;*/
+
+}
+
+section,
+footer {
+    margin: 0 1.5% 24px 1.5%;
+    display: block;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: #00a000;
+    padding: 24px 15px;
 }
