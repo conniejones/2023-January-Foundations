@@ -289,8 +289,9 @@ article:target~#home {
         transform: rotateY(360deg);
     }
 
+}
 
-
-
-
+#mobile-nav,
+#mobile-trigger {
+    display: none;
 }
