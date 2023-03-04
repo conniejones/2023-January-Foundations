@@ -94,6 +94,7 @@ article {
 
 .photobox img {
     height: 60vw;
+    width: auto;
     left: 50%;
 }
 
