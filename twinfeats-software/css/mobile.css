@@ -57,6 +57,10 @@ article {
     padding-left: 5vw;
     padding-right: 5vw;
     font-size: 1.2rem;
+    padding-top: 5vw;
+    height: auto;
+    min-height: 100vh;
+    position: absolute;
 }
 
 .vertical-container {
@@ -76,9 +80,11 @@ article {
 }
 
 .bonus-img {
-    margin-top: 5vh;
+    display: grid;
+    flex-direction: column;
+    /* margin-top: 5vh;
     display: block;
-    width: 100%;
+    width: 100%; */
 }
 
 #apps>.sidebar {
@@ -90,6 +96,12 @@ article {
     height: 60vw;
     margin-left: auto;
     margin-right: auto;
+    animation-delay: 3s;
+
+}
+
+#about:target .cube {
+    animation-play-state: running;
 }
 
 .photobox img {
@@ -124,10 +136,13 @@ article {
 
 figcaption {
     font-size: 1rem;
+    margin-bottom: 1em;
+
 }
 
 .photobox {
     flex-direction: column;
+    padding-bottom: 1em;
 }
 
 .stage {
