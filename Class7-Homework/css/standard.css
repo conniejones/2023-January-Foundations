@@ -5,6 +5,10 @@ body {
     color: #303030;
 }
 
+.container {
+    grid-template-areas: auto;
+}
+
 h1 {
     margin: 0;
     grid-column-start: 1;
@@ -13,13 +17,16 @@ h1 {
     border-color: #00a000;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.8);
-    /*padding-top: 0.5em;*/
+    padding-top: 0.5em;
 
 }
 
 section {
     margin: 0 1.5% 24px 1.5%;
+    grid-column-start: 1;
+    grid-column-end: 3;
     display: block;
+    text-align: left;
     border-style: solid;
     border-radius: 6px;
     border-color: #00a000;
