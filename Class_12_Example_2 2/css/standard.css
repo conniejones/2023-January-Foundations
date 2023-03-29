@@ -6,58 +6,29 @@ body {
     color: white;
     background-color: rgb(24, 1, 95);
     padding-top: 30px;
-}
-
-#home {
     background-image: url("../images/background1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-    background-position: center top;
-    text-align: right;
 }
 
-header {
+header>div {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    display: flex;
-    /* justify-content: space-between;
-    background-color: aliceblue */
-}
-
-.header {
-    width: 100%;
-    padding-top: 3em;
-    position: top;
-    background: #0b0ba2;
-}
-
-header>span {
-    color: white;
-    margin-top: 3vw;
     font-size: 1em;
-    line-height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+}
+
+header>div>nav {
+    color: aliceblue;
+}
+
+header>div>span {
+    color: aliceblue;
     text-transform: uppercase;
-}
-
-header>nav>a:last-child {
-    margin-right: 3vw;
-}
-
-header>nav>a:nth-last-child(2) {
-    margin-left: 3vw;
-    text-transform: uppercase;
-}
-
-nav>a {
-    color: white;
-    text-decoration: none;
-    margin-right: 3vw;
-    line-height: 5em;
-    vertical-align: middle;
+    font-size: 2em;
+    padding: left;
 }
 
 main {
@@ -68,4 +39,19 @@ main {
     transform: translate(-50%, calc(-50% + 2em));
     white-space: nowrap;
     text-align: center;
+}
+
+.hit {
+    width: 10em;
+    height: 5ex;
+    background-color: rgb(238, 82, 217);
+    border: 2px solid rgb(238, 82, 217);
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.hit:hover {
+    background-color: rgb(241, 127, 209);
 }
